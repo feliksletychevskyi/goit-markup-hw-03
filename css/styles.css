@@ -147,7 +147,7 @@ button {
 /* Hero */
 
 .hero {
-    max-width: 1200px;
+    max-width: 1550px;
     margin-left: auto;
     margin-right: auto;
     background-color: #2e2f42;
@@ -249,6 +249,20 @@ button {
     background-color: #F4F4FD;
 }
 
+.team-section-title {
+    max-width: 412px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-top: 90px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
+
 .team-member {
     background-color: #ffffff;
 }
@@ -263,20 +277,31 @@ button {
     color: #2e2f42;
 }
 
+.team-list-img {
+    margin-bottom: 32px;
+}
+
 .team-member-name {
+    margin-left: 65px;
+    margin-right: 65px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: #2e2f42;
 }
 
 .team-member-text {
+    margin-left: 65px;
+    margin-right: 60px;
+    margin-bottom: 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
 }
 
@@ -292,7 +317,31 @@ button {
     color: #2e2f42;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-list-img {
+    margin-top: 48px;
+}
+
+.portfolio-list-margin {
+    margin-bottom: 120px;
+}
+
+.portfolio-section-title {
+    max-width: 412px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-top: 90px;
+}
+
 .portfolio-item-name {
+    margin-top: 32px;
+    margin-left: 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -302,6 +351,7 @@ button {
 }
 
 .portfolio-item-text {
+    margin-left: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -315,7 +365,19 @@ button {
     background-color: #2e2f42;
 }
 
+.footer-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    margin-top: 100px;
+}
+
 .footer-text {
+    max-width: 264px;
+    margin-top: 18px;
+    margin-bottom: 100px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
