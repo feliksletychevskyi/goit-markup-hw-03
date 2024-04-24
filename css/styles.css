@@ -142,6 +142,7 @@ button {
 .contact-list {
     display: flex;
     flex-direction: row;
+    gap: 40px;
 }
 
 .contact-list-link {
