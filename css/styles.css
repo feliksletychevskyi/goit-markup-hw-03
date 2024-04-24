@@ -137,8 +137,6 @@ button {
 .contact-block {
     font-style: normal;
     margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .contact-list {
@@ -148,6 +146,7 @@ button {
 
 .contact-list-link {
     margin-right: 40px;
+    padding: 24px 0;
     display: block;
     font-weight: 400;
     font-size: 16px;
