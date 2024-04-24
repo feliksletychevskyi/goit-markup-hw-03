@@ -140,10 +140,10 @@ button {
 .contact-list {
     display: flex;
     flex-direction: row;
-    gap: 40px;
 }
 
 .contact-list-link {
+    margin-right: 40px;
     display: block;
     font-weight: 400;
     font-size: 16px;
@@ -394,7 +394,7 @@ button {
 .footer-logo {
     display: inline-block;
     margin-top: 100px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .footer-text {
