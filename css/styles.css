@@ -116,6 +116,7 @@ button {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    margin-right: auto;
 }
 
 .menu-link {
@@ -136,6 +137,8 @@ button {
 .contact-block {
     font-style: normal;
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .contact-list {
